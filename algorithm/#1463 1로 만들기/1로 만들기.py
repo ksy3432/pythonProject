@@ -1,7 +1,5 @@
 x = int(input())
-count = 0
 s = [0 for i in range(x+1)]
-s[1] = 0
 
 for i in range(2, x+1):
     s[i] = s[i-1] + 1
