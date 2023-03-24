@@ -13,11 +13,6 @@ def push(x):
 for i in range(n):
     find = int(input())
 
-    '''if i == 1 :
-        for j in range(1,find+1):
-            push(j)
-            print('+')'''
-
     while val <= find:
         push(val)
         s.append('+')
